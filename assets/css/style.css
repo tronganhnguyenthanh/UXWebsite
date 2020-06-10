@@ -1,0 +1,19 @@
+@media(max-width: 576px){
+    h1{
+     font-size:18px !important;
+    }
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
